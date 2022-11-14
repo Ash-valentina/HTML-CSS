@@ -1,0 +1,118 @@
+/*everything but text*/
+.square {
+  height: 400px;
+  width: 400px;
+  border: 5px solid black;
+  background: transparent;
+  position: absolute;
+  top: 70px;
+  left: 50px;
+}
+
+.img {
+  width: 325px;
+  height: 325px;
+  object-position: 175px 175px;
+  object-fit: none;
+}
+/*all the text*/
+h1,
+h2,
+h4,
+p {
+  font-family: "Courier New", Courier, monospace;
+  color: green;
+}
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: red;
+  font-size: 18px;
+}
+.header1 {
+  font-family: "Courier New", Courier, monospace;
+  color: green;
+  position: absolute;
+  left: 50px;
+}
+.tijgerpagina {
+  position: absolute;
+  left: 50px;
+  bottom: 200px;
+}
+.p {
+  position: absolute;
+  top: 520px;
+  left: 50px;
+}
+.rood {
+  position: absolute;
+  bottom: 185px;
+  left: 50px;
+}
+.text {
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+}
+.links {
+  font-family: "Courier New", Courier, monospace;
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+}
+#absoluut {
+  position: absolute;
+  left: 400px;
+  top: 400px;
+}
+#right {
+  position: absolute;
+  right: 550px;
+  top: 0px;
+}
+#rightred {
+  position: absolute;
+  right: 528px;
+  top: 30px;
+}
+
+#rightp {
+  position: absolute;
+  right: 472px;
+  top: 50px;
+  width: 250px;
+}
+#righth {
+  position: absolute;
+  right: 463px;
+  top: 435px;
+  font-weight: bold;
+}
+#hr {
+  position: absolute;
+  bottom: -50px;
+  border: none;
+  height: 10px;
+  background: gray;
+  margin-bottom: 50px;
+  width: 1400px;
+}
+#footer1 {
+  font-family: "Courier New", Courier, monospace;
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  bottom: -40px;
+  left: 50px;
+}
+#footer2 {
+  font-family: "Courier New", Courier, monospace;
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  bottom: -40px;
+  right: 200px;
+}
