@@ -1,0 +1,10 @@
+1. met een punt is in het zelfde folder, en met twee bedekend dat het bestand in een folder terug is
+2. het is altijd van de randen af
+3. je kan er een animatie mee maken
+4. transform en opacity
+5. het maakt een element interactief
+6. :link, :hover en :active
+7. rood
+8. blauw
+9. het kan een text op een bepaald punt van het scherm vaststellen, zoals center
+10. een element kan in een state zijn, bijvoorbeeld dat de user een knop indrukt
