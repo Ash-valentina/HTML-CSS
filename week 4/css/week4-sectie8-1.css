@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  height: 300px;
+  grid-template-columns: 150px;
+  text-align: center;
+  border: 20px solid salmon;
+  width: 400px;
+}
+
+.grid-item {
+  margin: 0;
+  border: none;
+  width: 400px;
+}
