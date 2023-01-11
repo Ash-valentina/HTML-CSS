@@ -1,0 +1,125 @@
+1.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex-container {
+        display: flex;
+        border: 1px solid black;
+        height: 100px;
+        width: 200px;
+      }
+      .flex-child {
+        display: flex;
+        border: 1px solid green;
+        flex-direction: column;
+      }
+
+      /**/
+      .flex-background2 {
+        position: absolute;
+        display: flex;
+        height: 200px;
+        width: 1500px;
+      }
+      .flex-child2 {
+        display: flex;
+        border: 1px solid green;
+        flex-direction: column;
+        flex-grow: 1;
+        width: 250 px;
+      }
+
+      .flex-container2 {
+        border: 2px solid black;
+        position: relative;
+        height: 200px;
+        width: 400px;
+      }
+      /**/
+      .flex-container3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border: 2px solid black;
+        width: 800px;
+        justify-content: center;
+        height: 400px;
+      }
+      .flex-child3 {
+        display: flex;
+        border: 1px solid green;
+        width: 150px;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+      }
+      .flex-child3:nth-child(1),
+      .flex-child3:nth-child(5),
+      .flex-child3:nth-child(9) {
+        background-color: yellow;
+      }
+      .flex-child3:nth-child(2),
+      .flex-child3:nth-child(6),
+      .flex-child3:nth-child(10) {
+        background-color: red;
+      }
+      .flex-child3:nth-child(3),
+      .flex-child3:nth-child(7) {
+        background-color: blue;
+      }
+      .flex-child3:nth-child(4),
+      .flex-child3:nth-child(8) {
+        background-color: purple;
+      }
+      .flex-container-fake {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-child">1</div>
+      <div class="flex-child">2</div>
+      <div class="flex-child">3</div>
+      <div class="flex-child">4</div>
+      <div class="flex-child">5</div>
+      <div class="flex-child">6</div>
+      <div class="flex-child">7</div>
+      <div class="flex-child">8</div>
+      <div class="flex-child">9</div>
+      <div class="flex-child">10</div>
+    </div>
+    2. en 3. nee, het veranderd wel de hoogte van een flex item
+    <div class="flex-background2">
+      <div class="flex-child2">1</div>
+      <div class="flex-child2">2</div>
+      <div class="flex-child2">3</div>
+      <div class="flex-child2">4</div>
+      <div class="flex-child2">5</div>
+      <div class="flex-child2">6</div>
+      <div class="flex-child2">7</div>
+      <div class="flex-child2">8</div>
+      <div class="flex-child2">9</div>
+      <div class="flex-child2">10</div>
+    </div>
+    <div class="flex-container2"></div>
+    <!---->
+    <div class="flex-container3">
+      <div class="flex-child3"></div>
+      <div class="flex-child3">2</div>
+      <div class="flex-child3">3</div>
+      <div class="flex-child3">4</div>
+      <div class="flex-child3">5</div>
+      <div class="flex-child3">6</div>
+      <div class="flex-child3">7</div>
+      <div class="flex-child3">8</div>
+      <div class="flex-child3">9</div>
+      <div class="flex-child3">10</div>
+    </div>
+  </body>
+</html>
