@@ -1,0 +1,97 @@
+@media screen and (min-width: 800px) {
+  .container7 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    width: 760px;
+    height: min-content;
+  }
+  .flex-child4 {
+    display: flex;
+    border: 1px solid green;
+    width: 150px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 601px) {
+  .container7 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    width: 456px;
+    height: min-content;
+  }
+  .flex-child4 {
+    display: flex;
+    border: 1px solid green;
+    width: 150px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  .i10 {
+    width: 456px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container7 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    width: 151px;
+    height: min-content;
+    flex-direction: column;
+  }
+  .flex-child4 {
+    display: flex;
+    border: 1px solid green;
+    width: 180px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.color:nth-child(1),
+.color:nth-child(5),
+.color:nth-child(9) {
+  background-color: yellow;
+}
+.color:nth-child(2),
+.color:nth-child(6),
+.color:nth-child(10) {
+  background-color: red;
+}
+.color:nth-child(3),
+.color:nth-child(7) {
+  background-color: blue;
+}
+.color:nth-child(4),
+.color:nth-child(8) {
+  background-color: purple;
+}
+
+.i4,
+.i8 {
+  height: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+  width: 151px;
+  height: min-content;
+  flex-direction: column;
+}
+.flex-child5 {
+  display: flex;
+  border: 1px solid green;
+  width: 180px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.i1 {
+  width: 200px;
+}
